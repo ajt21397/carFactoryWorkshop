@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+    font-size: 2rem;
+}
+
+/*color of the name of the person's website*/
+.name{
+    color: red;
+}
+
+.links :hover{
+    background-color: aqua;
+}
+
+.links a{
+    text-decoration: none; /*removes the underlines in the navbar links*/
+    color: black;
+    padding: 1rem;
+    display:block;
+}

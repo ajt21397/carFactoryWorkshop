@@ -1,0 +1,230 @@
+
+/*flex container to hold the art canvas*/
+.flex-container{
+    display: flex;
+    height: 80vh;
+    background-color: orange;
+    place-items: center;
+    margin: 0;
+    padding: 0px;
+}
+
+
+/*grass bar*/
+.grass{
+    display: flex;
+    width: 191.5vh;
+    height: 10vh;
+    background-color: green;
+    position: absolute;
+    top: 555px;
+    align-items: baseline;
+    
+}
+
+/*first building*/
+.building1{
+    display: flex;
+    background-color: yellow;
+    height: 500px;
+    width : 200px;
+    margin: 10;
+}
+
+/*window in the first building*/
+.window{
+    display: flex;
+    background-color: red;
+    height: 50px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: -160px;
+    top: -100px;
+    
+}
+
+/*second building (left to right)*/
+.building2{
+    display: flex;
+    background-color: purple;
+    height: 300px;
+    width: 200px;
+    position: relative;
+    left: 20px;
+    top: 85px;
+    align-items: first baseline;
+}
+
+/*window in the second building*/
+.window2{
+    display: flex;
+    background-color: red;
+    height: 50px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    left: -125px;
+    align-items: first baseline;
+}
+
+/*third building*/
+.building3{
+    display: flex;
+    background-color: red;
+    height: 400px;
+    width: 400px;
+    left: 1px;
+    top:85px;
+    position: relative;
+    align-items: first baseline;
+}
+
+/*window in the third building*/
+.window3{
+    display: flex;
+    background-color: blue;
+    height: 100px;
+    width: 250px;
+    border-radius: 50px;
+    position: relative;
+
+    left: 700px;
+    align-items: first baseline;
+}
+
+/*first big moon*/
+.moon{
+    display: flex;
+    height:200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 50%;
+    top: 50px;
+    left: 1200px;
+    position: absolute;
+}
+
+/*2nd moon within the first one*/
+.moon2{
+    display: flex;
+    height:150px;
+    width: 150px;
+    background-color: black;
+    border-radius: 50%;
+    top: 50px;
+    left: 1200px;
+    position: absolute;
+    z-index: 1;
+}
+
+/*3rd moon within the the first two with z-index -2*/
+.moon3{
+    display: flex;
+    height:100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    top: 50px;
+    left: 1200px;
+    position: absolute;
+    z-index: -1;
+}
+
+
+/*4th moon within the other moons*/
+.moon4{
+    display: flex;
+    height:50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    top: 50px;
+    left: 1200px;
+    position: absolute;
+    z-index: -1;
+}
+
+/*a panel shape that ended up being the the pavement to the pyramid*/
+.panel1{
+    display: flex;
+    border-bottom: 50px solid blue;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0px;
+    width: 125px;
+    top: 555px;
+    left: 1200px;
+    position: absolute;
+}
+
+/*random pyramid because of abstract art*/
+.triHouse{
+    display: flex;
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 225px solid palevioletred;
+    top: 330px;
+    left: 1090px;
+    position: absolute;
+}
+
+
+/*first door in the first building*/
+.door1{
+    display: flex;
+    height: 100px;
+    width: 50px;
+    background-color: blue;
+    position: relative;
+    top: 185px;
+    left: -152vh;
+}
+
+/*second door in the second building*/
+.door2{
+    display: flex;
+    height: 100px;
+    width: 90px;
+    background-color: pink;
+    position: relative;
+    top: 185px;
+    left: -118vh;
+}
+
+/*door in the 3rd building*/
+.door3{
+    display: flex;
+    height: 100px;
+    width: 130px;
+    background-color: lightgreen;
+    position: absolute;
+    top: 455px;
+    left: 840px;
+}
+
+/*door in the 4th building*/
+.door4{
+    display: flex;
+    height: 100px;
+    width: 130px;
+    background-color: lightgreen;
+    position: absolute;
+    top: 455px;
+    left: 680px;
+}
+
+/*title of the art form*/
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+/*the actual form, email/name and submit*/
+.artForm{
+    display: flex;
+    justify-content: center;
+}
